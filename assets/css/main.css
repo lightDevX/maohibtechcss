@@ -75,4 +75,66 @@ header li.dropdown {
 .hero-section .hero {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.hero-section .hero .hero-data{
+   width: 50%;
+}
+
+.hero-section .hero .hero-data h1{
+    font-size:3rem;
+    font-weight: 900;
+    margin-bottom: 30px;    
+}
+
+.hero-section .hero .hero-data p {
+    font-size: 1rem;
+    font-weight:600;
+    margin-bottom: 30px;
+
+}
+
+.hero-section .hero .hero-data button{
+width: 256px;
+padding: 16px 0px;
+text-align: center;
+border: none;
+border-radius: 30px;
+background-color: #45a29e;
+color: #fff;
+font-size: 1rem;
+}
+
+.hero-section .hero .banner{
+    width: 50%;
+    height: 50%;
+}
+
+.hero-section .hero .banner img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.work-history .work-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+
+}
+
+.work-history .work-logo img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    animation: animationlogo 20s infinite;
+}
+
+@keyframes animationlogo {
+    from{right: 0px;}
+    to{right: 1280px;}
 }
